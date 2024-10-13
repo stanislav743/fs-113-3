@@ -10,7 +10,7 @@ body
     border-bottom: 1px solid #e7e9fc;
 }
 .conteiner {
-    max-width: 1158 px;
+    width: 1158 px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -144,25 +144,19 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff
-    padding: 188px 0;
-    background: #2e2f42;
+    
 }
 
-.conteiner {
-    max-width: 1158 px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-}
 
 .main-title
-{max-width: 496px;
-display: block;
+{
+
 padding-top: 188px;
 padding-left:  472px;
 padding-bottom: 292px;
 padding-right:472px;
 
+ background: #2e2f42;
 }
 .action-button{
     font-family: inherit;
@@ -199,7 +193,7 @@ padding: 16px 32px;
 
 
 
-.conteiner-features{
+.features{
     padding-top: 120px;
 padding-bottom: 120px;
    
@@ -232,7 +226,7 @@ gap: 24px;
 }
 .features-subtitle { 
   
-    margin-left: 24px;
+   
     margin-bottom: 8px;
 }
 .features-item-text {
@@ -242,20 +236,11 @@ gap: 24px;
 
     /* our-team */
 
-    .conteiner{
-        max-width: 1158 px;
-        padding-left: 15px;
-        padding-right: 15px;
-        margin: 0 auto;
-    }
-
-.our-team{
+    
+    .our-team{
     
     background: #f4f4fd;
     padding: 120px 0;
-    
-
-
 }
 
 
@@ -321,12 +306,6 @@ color: #434455;
     padding-bottom: 120px;
 }
 
-.conteiner {
-                max-width: 1158 px;
-                padding-left: 15px;
-                padding-right: 15px;
-                margin: 0 auto;
-            }
 
 .neon {font-weight: 700;
     font-size: 36px;
@@ -383,12 +362,8 @@ color: #434455;
     padding: 100px 0;
     
 }
-.conteiner {
-    max-width: 1158 px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-}
+
+
 .header-logo{
     font-weight: 700;
 font-size: 18px;

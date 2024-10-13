@@ -10,7 +10,7 @@ body
     border-bottom: 1px solid #e7e9fc;
 }
 .conteiner {
-    width: 1158 px;
+    width:1158 px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -143,7 +143,8 @@ a {
     line-height: 1.07143;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #fff
+    color: #fff;
+    padding: 188px 0;
     
 }
 
@@ -216,6 +217,7 @@ padding-bottom: 120px;
     display: flex;
     flex-wrap: wrap;
 gap: 24px;
+margin-bottom: 8px;
 }
 .features-item {
     flex-basis: calc((100% - 3 * 24px) / 4 );
@@ -271,10 +273,11 @@ padding: 0px 0px 32px 0px;
 width: calc((100% - 72px) / 4);
 
 background: #fff;
-display: block;
+
 }
 .worker{
     padding: 32px 0;
+ 
 }
 
 

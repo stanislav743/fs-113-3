@@ -43,7 +43,7 @@ body
             text-transform: uppercase;
             color: #4d5ae5;
             align-items: center;
-           padding-right: 76px;
+           margin-right: 76px;
            
         }
         
@@ -141,14 +141,19 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff
-
-}
-.main-div{
     padding: 188px 0;
     background: #2e2f42;
 }
+
+.conteiner {
+    max-width: 1158 px;
+    padding left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
 .main-title
-{max-width: 100%;
+{max-width: 496px;
 display: block;
 padding-top: 188px;
 padding-left:  472px;
@@ -234,14 +239,19 @@ gap: 24px;
 
     /* our-team */
 
+    .conteiner{
+        max-width: 1158 px;
+        padding left: 15px;
+        padding-right: 15px;
+        margin: 0 auto;
+    }
 
-
-.conteiner-narrow{
+.our-team{
     
     background: #f4f4fd;
-    padding-bottom: 120px;
+    padding: 120px 0;
     
-    
+
 
 }
 
@@ -262,22 +272,21 @@ margin: 72px;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 32px;
+    gap: 24px;
     
 }
 
 .fotografy-list-item{
-    margin: 32px;
+    
     border-radius: 0 0 4px 4px;
 padding: 0px 0px 32px 0px;
-width: 264px;
-height: 380px;
+width: calc((100% - 72px) / 4);
 
 background: #fff;
 
 }
 .worker{
-    padding: 32px 16px 32px 16px;
+    padding: 32px 0;
 }
 
 
@@ -304,9 +313,17 @@ color: #434455;
 
               /* Our Portfolio */
 
+.selo{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
-
-
+.conteiner {
+                max-width: 1158 px;
+                padding left: 15px;
+                padding-right: 15px;
+                margin: 0 auto;
+            }
 
 .neon {font-weight: 700;
     font-size: 36px;
@@ -320,16 +337,17 @@ color: #434455;
 }
 
 .selo-neon-pop { 
+    
      display:flex;
         justify-content: center;
     flex-wrap: wrap;
     row-gap: 48px;
     column-gap: 24px;
     
-}p
+}
 .selo-neon-pop-rok {
 
-width: calc((100% - 5 * 24px) / 6);
+    width: calc((100% - 48px) / 3);
 }
 
 .selo-neon-lap {
@@ -361,6 +379,12 @@ width: calc((100% - 5 * 24px) / 6);
     background: #2e2f42; 
     padding-top: 100px ;
     padding-bottom: 100px;
+}
+.conteiner {
+    max-width: 1158 px;
+    padding left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
 }
 .header-logo{
     font-weight: 700;

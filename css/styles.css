@@ -3,31 +3,60 @@ body
         color: #434455;
         background-color: #FFFFFF; 
     }
-    
+    .conteiner {
+        max-width: 1158 px;
+        padding left: 15px;
+        padding-right: 15px;
+        margin: 0 auto;
+    }
+                       /*common*/ 
+
+
+          .header-conteiner {
+            display: flex;
+            align-items: center; 
+            border-bottom: 1px solid #e7e9fc;
+           }
+
+        .header-navigation
+         {    
+            display: flex;
+            align-items: center;
+            padding: 24px 0;
+            
+        }
+        .header-menu-list{ 
+        
+            display:flex;
+            align-items: center;
+            
+        
          
-         .header {
-        }
-        .header-navigation {
-        }
-        .header-logo { font-family: "Raleway", sans-serif;
+          }
+
+        .header-logo { 
+            font-family: "Raleway", sans-serif;
             font-weight: 700;
             font-size: 18px;
             line-height: 1.17;
             letter-spacing: 0.03em;
             text-transform: uppercase;
-            color: #4d5ae5;}
+            color: #4d5ae5;
+            align-items: center;
+           padding-right: 76px;
+           
+        }
         
-        .header-logo-raleway {font-family: 
-            "Raleway", sans-serif;
-            font-weight: 700;
-            font-size: 18px;
-            line-height: 1.16667;
-            letter-spacing: 0.03em;
-            text-transform: uppercase;
-            color: #2e2f42;
+        .header-logo-raleway {
+            color: #2e2f42; 
+            
         }
         .header-menu-list {
-            
+            display: flex;
+            align-items: center;
+            gap: 40px; 
+             
+          
         }
         .header-menu-item {
         }
@@ -38,6 +67,9 @@ body
             line-height: 1.5;
             letter-spacing: 0.02em;
             color: #2e2f42;
+            padding-top: 24px;
+            padding-bottom: 24px
+           
         }
         .header-menu-link:hover{
             color: #404bbf}
@@ -45,21 +77,34 @@ body
             .header-menu-link:focus {
              color: #404bbf} 
 
+           /*header*/
+
+
 
         .font-style {
-            font-style: normal
+            font-style: normal;
+            margin-left: auto;
         }
 
 
         .header-contacts-list {
-        }
-        .header-contacts-item {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            padding:24px 156px;
             
+        }
+
+        .header-contacts-item {
+            display: block;
+            padding: 24 px 0;
             font-weight: 400;
             font-size: 16px;
             line-height: 1.5;
             letter-spacing: 0.02em;
             color: #434455;
+           
+            
         }
         .header-contacts-item:hover{
             color: #404bbf}
@@ -71,30 +116,45 @@ body
 
 ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
 }
 
-
 a {
-    text-decoration: none;}
+    text-decoration: none;
+}
+        
+
+/*Effective Solutions  */
+
+
 
 
 
 .main-sektion {
-   font-weight: 500;
-font-size: 56px;
-line-height: 1.07;
-letter-spacing: 0.02em;
-text-align: center;
-color: #fff;
-background: #2e2f42;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff
+
 }
-.main-title{
-    font-weight: 500;
-font-size: 56px;
-line-height: 1.07;
-letter-spacing: 0.02em;
-text-align: center;
-color: #fff;
+.main-div{
+    padding: 188px 0;
+    background: #2e2f42;
+}
+.main-title
+{max-width: 100%;
+display: block;
+padding-top: 188px;
+padding-left:  472px;
+padding-bottom: 292px;
+padding-right:472px;
+
 }
 .action-button{
     font-family: inherit;
@@ -104,8 +164,21 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 color: #fff;
-
+text-align: center;
+margin-right: auto;
+margin-left: auto;
+display: block;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: row;
+border: none;
+border-radius: 4px;
+min-width: 169px;
+height: 56px;
+text-decoration: none;
 background: #4d5ae5;
+padding: 16px 32px;
+
 }
 .action-button:hover{
     background-color: #404BBF 
@@ -118,35 +191,57 @@ background: #4d5ae5;
 
 
 
-.features{
+.conteiner-features{
+    padding-top: 120px;
+padding-bottom: 120px;
    
 
 }
+.visually-hidenn{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
+.features-list {
+    display: flex;
+    flex-wrap: wrap;
+gap: 24px;
+}
+.features-item {
+    flex-basis: calc((100% - 3 * 24px) / 4 );
+}
+.title {
+    
 
-.features-subtitle{
-    text-transform: capitalize;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    background: #fff;}
-
-
-.features-item-text{
-    font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
+}
+.features-subtitle { 
+  
+    margin-left: 24px;
+    margin-bottom: 8px;
+}
+.features-item-text {
 }
 
 
 
-.our-team {
+    /* our-team */
+
+
+
+.conteiner-narrow{
+    
     background: #f4f4fd;
-   
+    padding-bottom: 120px;
+    
+    
 
 }
 
@@ -159,25 +254,37 @@ letter-spacing: 0.02em;
 text-align: center;
 text-transform: capitalize;
 color: #2e2f42;
-background: #f4f4fd;
+margin: 72px;
+
 }
-.fotografy-list-item{
-    font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-text-align: center;
-color: #2e2f42;
-background: #fff;
+.fotografy-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+    
 }
 
+.fotografy-list-item{
+    margin: 32px;
+    border-radius: 0 0 4px 4px;
+padding: 0px 0px 32px 0px;
+width: 264px;
+height: 380px;
+
+background: #fff;
+
+}
+.worker{
+    padding: 32px 16px 32px 16px;
+}
+
+
+
 .fotografy-list-item-work{
-    font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-text-align: center;
-color: #2e2f42;
+ margin: 8px;
+ text-align: center;
 }
 .fotografy-list-item-work-toto{
     font-weight: 400;
@@ -186,6 +293,8 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
 color: #434455;
+
+
 }
 
 
@@ -193,66 +302,79 @@ color: #434455;
 
 
 
+              /* Our Portfolio */
 
 
 
 
 
-.selo {
-   
-}
-.neon { font-family: "Roboto", sans-serif;
-    font-weight: 700;
+.neon {font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    color: #2e2f42;
     text-transform: capitalize;
-    color: #2e2f42;
+    padding-top: 120px;
+    margin-bottom: 72px;
 }
-.selo-neon-pop {
-    background: #fff;
-}
+
+.selo-neon-pop { 
+     display:flex;
+        justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
+    
+}p
 .selo-neon-pop-rok {
+
+width: calc((100% - 5 * 24px) / 6);
 }
+
 .selo-neon-lap {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-font-size: 20px;
-line-height: 1.2;
-text-align:left
+    
+    
+    margin-bottom: 8px;
+}
+.selo-neon-lap-map { 
+
+    margin-bottom: 8px;
+}
+
+.portfolio-title{
+    border: 1px solid #e7e9fc;
+     padding: 32px 16px;
+     border-top: none;
+
 
 }
 
-.selo-neon-lap-map {
-    font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-text-align:left;
-letter-spacing: 0.02em;
-color: #434455;
-}
+
+/*footer*/
+
+
+
+
 
 .footer{
-    background: #2e2f42;
+    background: #2e2f42; 
+    padding-top: 100px ;
+    padding-bottom: 100px;
 }
-.footer-header-logo{
+.header-logo{
     font-weight: 700;
 font-size: 18px;
-line-height: 1.16667;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
+margin-bottom: 16px;
+display: inline-block;
 
 }
 .footer-header-logo-raleway{
-    font-weight: 700;
-font-size: 18px;
-line-height: 1.16667;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+
 color: #f4f4fd;
 }
 .footer-text{
@@ -260,4 +382,7 @@ color: #f4f4fd;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #f4f4fd;}
+    color: #f4f4fd;
+    width: 264px;
+    height: 112px;
+}

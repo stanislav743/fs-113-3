@@ -22,16 +22,18 @@ img {
 
                        /*common*/ 
 
-.header{
-    border-bottom: 1px solid #e7e9fc;
-}
-.conteiner {
+
+.conteiner 
+{
     width:1158 px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
 }
-          .header-conteiner {
+          
+.header{ border-bottom: 1px solid #e7e9fc;
+}
+.header-conteiner {
             display: flex;
             align-items: center; 
             

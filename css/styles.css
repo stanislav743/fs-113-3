@@ -4,6 +4,22 @@ body
         background-color: #FFFFFF; 
     }
     
+ul {
+    list-style-type:  none;
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+img {
+    display: block;
+}
+
                        /*common*/ 
 
 .header{
@@ -28,20 +44,23 @@ body
             
             
         }
-        
-
-        .header-logo { 
-            font-family: "Raleway", sans-serif;
+    .logo{
+        font-family: "Raleway", sans-serif;
             font-weight: 700;
             font-size: 18px;
             line-height: 1.17;
             letter-spacing: 0.03em;
             text-transform: uppercase;
             color: #4d5ae5;
+           
+    }
+
+        .header-logo { 
+           
             
            margin-right: 76px;
-           padding-bottom: 24px;
-           padding-right: 24px;
+           padding: 24px 0;
+          
         }
         
         .header-logo-raleway {
@@ -118,22 +137,6 @@ height: 24px;
             }
 
 
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-h1, h2, h3, h4, h5, h6, p {
-    margin: 0;
-}
-
-a {
-    text-decoration: none;
-}
-img {
-    display: block;
-}
-
         
 
 /*Effective Solutions  */
@@ -144,8 +147,8 @@ img {
 
 .main-sektion {
     
-    padding: 188px;
-    padding-bottom: 188px;
+    padding: 188px 0;
+    
     background: #2e2f42
 }
 
@@ -231,16 +234,10 @@ gap: 24px;
 .features-item {
     flex-basis: calc((100% - 3 * 24px) / 4 );
 }
-.title {display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: column;
-    gap: 8px;
-    width: 264px;
-height: 104px;
+
     
 
-}
+
 .features-subtitle { 
     font-weight: 500;
     font-size: 20px;
